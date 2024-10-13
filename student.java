@@ -2,9 +2,9 @@ import java.io.Serializable;
 
 public class Student implements Serializable {
     private String id;	//学号
-    private String name;	//姓名
+    private String name;//姓名
     private int eng;	//英语成绩
-    private int math; //数学成绩22
+    private int math; //数学成绩
     private int comp; //计算机成绩
     private int sum;  //总成绩
 
